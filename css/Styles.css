@@ -1,0 +1,157 @@
+body,
+.about-me {
+  font-family: "Source Code Pro", monospace;
+  font-size: 15px;
+}
+
+body,
+ul {
+  margin: 0;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "Old Standard TT", serif;
+}
+
+img {
+  /* Limiting width of the image. It takes
+    100% width of the parent maximum*/
+  max-width: 100%;
+  margin-top: 5%;
+}
+
+nav {
+  background-color: rgb(229, 237, 251);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 5px;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+/* Parent and child */
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  position: relative;
+  margin-top: 10px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.project-list {
+  text-align: center;
+}
+
+/* projects list */
+section ul li {
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.about-me {
+  font-size: 25px;
+  margin-left: -45px;
+  margin-top: 50px;
+}
+
+ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+.project {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.projectJTA {
+  background-color: #e5e5e5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.button {
+  font-size: 15px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  margin-top: 40px;
+  /* When margin doesn't work, do the next line of code */
+  display: inline-block;
+  border-radius: 40px;
+  /* Colour changes of button */
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.button:hover {
+  background: black;
+  color: white;
+}
+
+figcaption {
+  font-size: 10px;
+}
+
+.Title {
+  background-color: rgb(229, 237, 251);
+  padding: 40px;
+  text-align: center;
+}
+
+footer {
+  background-color: #e5e5e5;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 10px;
+}
+
+/* .image {
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px; */
+
+.project .button {
+  margin-top: 10px;
+}
+
+.right-alignment {
+  text-align: right;
+}
+
+section.contents {
+  background-color: #e5e5e5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
